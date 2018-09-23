@@ -1,0 +1,40 @@
+body{
+  background-color:#aaaaaa;
+  background-image:url(../images/starsbg.png);
+  background-attachment:fixed;
+	font-family: 'Rubik', sans-serif;
+	font-size:15px;
+  color:black;
+}
+/*for crispy pixels*/
+img {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+h3{
+  font-family: 'Press Start 2P', cursive;
+	font-size:14px;
+  color:white;
+  background-color:black;
+  padding:10px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  margin:0;
+}
+
+.imgbox{
+  height:62px;
+  padding-left:21%;
+}
+
+.box{
+  line-height:1.5;
+  background-color:white;
+  padding-bottom:5px;
+  border-radius:8px;
+  margin-left:20%;
+  margin-right:20%;
+}
